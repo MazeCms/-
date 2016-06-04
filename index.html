@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Тестовое задание</title>
+
+    <link href="./css/styles.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  <div class="wrapper">
+    <div class="test-form">
+      <table class="test-form-table">
+      <tr>
+        <td>
+   
+          <input id="first" class="pull-left license license-font 0-license" type="radio" name="license" value="13">
+          <label for="first"></label>
+          <span  id="0-license" class="license-font">
+            License plan #1
+          </span>
+         <span class="pull-right  license-price"><span id="0-price">$13</span> per license</span>
+        </td>
+      </tr>
+        <tr>
+        <td>
+   
+          <input id="second" class="pull-left  license license-font 1-license" type="radio" name="license" value="14">
+          <label for="second"></label>
+          <span  id="1-license" class="license-font">
+            License plan #1
+          </span>
+          <span class="pull-right license-price"><span id="1-price">$13</span> per license</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+   
+          <input id="third" class="pull-left license license-font 2-license" type="radio" name="license" value="15">
+          <label for="third"></label>
+          <span  id="2-license" class="license-font">
+            License plan #1
+          </span>
+          <span class="pull-right license-price"><span id="2-price">$13</span> per license</span>
+        </td>
+      </tr>
+        
+        <tr class="text-center">
+          <td colspan="2">
+          <span class="number">
+            Number of licenses
+          </span>
+          <select id="numberOf">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+          </select>  
+          </td>
+        </tr>
+        <tr class="text-center">
+          <td colspan="2" class="total">
+              Total: <span class="total-number">&nbsp;$340</span><span class="total-sup"><sup>us</sup></span>
+          </td>
+        </tr>
+        <tr class="text-center">
+          <td colspan="2">
+              
+                <input type="submit" class="buy" value="buy now">
+              
+          </td>
+        </tr>
+        <tr class="text-center">
+           <td colspan="2" class="selected">
+              Selected plan: #3
+          </td>         
+        </tr>
+
+      </table>
+    </div>
+
+    <div class="test-circle">
+    <div class="coord">
+      <p>Положение курсора X <span class = "Ox"></span> Y <span class="Oy"></span> </p>
+      <p>До оси Y = <span class = "AC"></span></p>
+      <p>До оси X = <span class = "AB"></span></p>
+      <p>K = <span class = "K"></span></p>
+    </div>
+      <div class="circle-wrapper">
+        <div id="circle">
+          
+        </div>
+      </div>
+    </div>
+  </div>
+    
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!---->
+    <script src="./js/my.js"></script>
+    <script src="./js/getFromJson.js"></script>
+  </body>
+</html>
